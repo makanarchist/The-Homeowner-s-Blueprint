@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Homeowner's Blueprint: What to Verify Before You Sign &amp; Pay</title>
+<meta name="description" content="A 48-page checklist guide for Philippine homeowners: verify your land, your contractor, your contract and every payment before you build.">
+<style>
+:root{
+  --bg:#F6F3EA; --card:#FFFFFF; --ink:#1E2227; --muted:#4A4F57; --line:#DDD7C6;
+  --accent:#FFC20E; --accent-ink:#1E2227; --red:#B8302A; --band:#1E2227; --band-ink:#FFFFFF; --soft:#FFF3C7;
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#14171B; --card:#1D2126; --ink:#F3F0E6; --muted:#B9B5A8; --line:#343A41; --accent:#FFC20E; --accent-ink:#1E2227; --red:#FF7A70; --band:#0C0E10; --band-ink:#F3F0E6; --soft:#2B2713;}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+h1,h2,h3{font-family:"Arial Narrow","Roboto Condensed","Helvetica Neue",Arial,sans-serif;line-height:1.08;margin:0;letter-spacing:-.01em}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--accent);color:var(--accent-ink);padding:8px 14px;border-radius:8px;z-index:50}
+.skip:focus{left:8px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+section{padding:56px 0}
+.eyebrow{font-weight:700;letter-spacing:.16em;font-size:13px;text-transform:uppercase}
+.tape{height:12px;background:repeating-linear-gradient(135deg,#FFC20E 0,#FFC20E 16px,#1E2227 16px,#1E2227 32px)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--accent);color:var(--accent-ink);font-weight:800;font-size:18px;border:2px solid #1E2227;border-radius:12px;padding:14px 26px;text-decoration:none;cursor:pointer;box-shadow:4px 4px 0 #1E2227;transition:transform .12s,box-shadow .12s}
+.btn:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 #1E2227}
+.btn:active{transform:translate(2px,2px);box-shadow:1px 1px 0 #1E2227}
+@media (prefers-color-scheme:dark){.btn{border-color:#FFC20E;box-shadow:4px 4px 0 #000}.btn:hover{box-shadow:6px 6px 0 #000}}
+
+.btn.alt{background:transparent;color:inherit;box-shadow:none;border-color:currentColor}
+.btn.alt:hover{transform:none;box-shadow:none;background:rgba(127,127,127,.18)}
+.hero .btn.alt,.final .btn.alt,.bar .btn.alt{color:#fff}
+.cta{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+@media(max-width:520px){.bar>span{display:none}.bar{justify-content:center;gap:10px}.bar .btn{padding:10px 14px;font-size:15px}}
+/* hero */
+.hero{background:var(--band);color:var(--band-ink);padding:48px 0 56px}
+.hero-grid{display:grid;gap:36px;align-items:center}
+@media(min-width:860px){.hero-grid{grid-template-columns:1.15fr .85fr}}
+.hero h1{font-size:clamp(36px,6vw,62px);color:#fff}
+.hero h1 span{color:var(--accent)}
+.hero p.lead{font-size:20px;color:#E8E4D8;margin:18px 0 24px;max-width:34em}
+.price-row{display:flex;flex-wrap:wrap;align-items:center;gap:14px 22px}
+.price{font:800 40px/1 "Arial Narrow",Arial,sans-serif;color:#fff}
+.price small{font:500 14px system-ui,sans-serif;color:#C9C5B8;display:block;margin-top:4px}
+.rating{font-size:14px;color:#C9C5B8;margin-top:16px}
+.book{position:relative;margin:0 auto;width:min(100%,320px);aspect-ratio:3/4.2;background:#F6F3EA;color:#1E2227;border:3px solid #FFC20E;border-radius:10px;padding:22px 20px;transform:rotate(2.5deg);box-shadow:10px 12px 0 rgba(0,0,0,.45);display:flex;flex-direction:column}
+.book .stamp{align-self:flex-end;background:#B8302A;color:#fff;font-weight:800;font-size:11px;letter-spacing:.12em;padding:4px 8px;border-radius:3px;transform:rotate(-3deg)}
+.book h2{font-size:30px;margin-top:14px;color:#1E2227}
+.book p{font-size:13px;margin:10px 0 0;color:#3A3F46}
+.book .by{margin-top:auto;background:#6F8FBF;color:#fff;border-radius:6px;padding:8px 10px;font-size:12px;line-height:1.3}
+
+/* problem */
+.fears{display:grid;gap:14px;margin-top:26px}
+@media(min-width:760px){.fears{grid-template-columns:repeat(3,1fr)}}
+.fear{background:var(--card);border:2px solid var(--line);border-radius:14px;padding:20px}
+.fear b{display:block;font-family:"Arial Narrow",Arial,sans-serif;font-size:22px;line-height:1.1;margin-bottom:8px}
+.x{color:var(--red);font-weight:900;margin-right:6px}
+h2.title{font-size:clamp(28px,4.4vw,42px)}
+.sub{color:var(--muted);max-width:40em;margin:12px 0 0}
+
+/* inside */
+.inside{display:grid;gap:12px;margin-top:26px}
+@media(min-width:700px){.inside{grid-template-columns:1fr 1fr}}
+.item{display:flex;gap:12px;background:var(--card);border:2px solid var(--line);border-radius:12px;padding:16px}
+.item i{flex:none;width:28px;height:28px;border-radius:50%;background:var(--accent);color:#1E2227;font-style:normal;font-weight:900;display:flex;align-items:center;justify-content:center}
+.item b{display:block}
+.item span{color:var(--muted);font-size:15px}
+
+/* payment visual */
+.band{background:var(--soft)}
+.chart{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px;height:300px;border-bottom:3px solid var(--ink);margin-top:26px}
+.col{display:flex;flex-direction:column;justify-content:flex-end;height:100%;min-width:0}
+.col em{font-style:normal;font-weight:800;text-align:center;font-size:clamp(12px,2.6vw,17px);line-height:1.05;margin-bottom:4px}
+.col em small{display:block;font:500 11px system-ui,sans-serif;color:var(--muted)}
+.stack{display:flex;flex-direction:column;justify-content:flex-end}
+.now{border:2px solid var(--ink);border-bottom:0;background:repeating-linear-gradient(135deg,var(--accent) 0,var(--accent) 6px,transparent 6px,transparent 12px);display:flex;align-items:center;justify-content:center;min-height:24px}
+.now b{background:var(--card);border:1px solid var(--ink);border-radius:4px;padding:0 4px;font-size:12px;line-height:18px}
+.paid{background:var(--ink)}
+.nums{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px;margin-top:8px}
+.nums span{justify-self:center;width:28px;height:28px;border-radius:50%;background:var(--ink);color:var(--bg);font-weight:800;display:flex;align-items:center;justify-content:center;font-size:14px}
+.gates{display:grid;gap:10px;margin-top:22px}
+@media(min-width:700px){.gates{grid-template-columns:1fr 1fr}}
+.gate{display:flex;gap:12px;background:var(--card);border:2px solid var(--line);border-radius:12px;padding:12px 14px}
+.gate i{flex:none;width:28px;height:28px;border-radius:50%;background:var(--ink);color:var(--bg);font-style:normal;font-weight:800;display:flex;align-items:center;justify-content:center;font-size:14px}
+.gate b{display:block;line-height:1.2}
+.gate span{color:var(--muted);font-size:14px}
+.legend{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:14px;margin-top:14px;color:var(--muted)}
+.sw{display:inline-block;width:16px;height:12px;vertical-align:-1px;margin-right:6px;border:2px solid var(--ink)}
+
+/* red flags */
+.flags{display:grid;gap:12px;margin-top:26px}
+@media(min-width:700px){.flags{grid-template-columns:1fr 1fr}}
+.flag{display:flex;gap:12px;background:var(--card);border:2px solid var(--line);border-radius:12px;padding:14px 16px;align-items:flex-start}
+.flag n{flex:none;width:34px;height:34px;border-radius:50%;background:var(--red);color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center;font-style:normal}
+.flag b{display:block;line-height:1.2}
+.flag span{color:var(--muted);font-size:14px}
+.locked{margin-top:14px;font-size:15px;color:var(--muted)}
+
+/* who / author */
+.two{display:grid;gap:28px}
+@media(min-width:800px){.two{grid-template-columns:1fr 1fr}}
+ul.tick{list-style:none;padding:0;margin:16px 0 0}
+ul.tick li{padding-left:30px;position:relative;margin:10px 0}
+ul.tick li:before{content:"\2713";position:absolute;left:0;top:0;width:22px;height:22px;background:var(--accent);color:#1E2227;border-radius:50%;text-align:center;font-weight:900;font-size:14px;line-height:22px}
+.note{background:var(--card);border:2px solid var(--line);border-left:10px solid var(--accent);border-radius:12px;padding:20px}
+
+/* faq */
+details{background:var(--card);border:2px solid var(--line);border-radius:12px;padding:14px 18px;margin:10px 0}
+summary{cursor:pointer;font-weight:700}
+details p{margin:10px 0 0;color:var(--muted)}
+
+/* final */
+.final{background:var(--band);color:var(--band-ink);text-align:center}
+.final h2{color:#fff;font-size:clamp(28px,5vw,46px)}
+.final p{color:#D8D4C7;max-width:36em;margin:14px auto 24px}
+.fine{font-size:13.5px;color:var(--muted);padding:26px 0 90px}
+.fine a{text-underline-offset:3px}
+
+/* sticky mobile bar */
+.bar{position:fixed;left:0;right:0;bottom:0;background:var(--band);color:#fff;padding:10px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px;z-index:20;border-top:3px solid var(--accent)}
+.bar .btn{padding:10px 18px;font-size:16px;box-shadow:none}
+@media(min-width:860px){.bar{display:none}.fine{padding-bottom:40px}}
+
+/* reveal */
+.js .rv{opacity:0;transform:translateY(14px);transition:opacity .5s,transform .5s}
+.js .rv.in{opacity:1;transform:none}
+</style>
+</head>
+<body>
+<a class="skip" href="#inside">Skip to what's inside</a>
+<div class="tape" aria-hidden="true"></div>
+
+<header class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow" style="color:#FFC20E">Before you sign. Before you pay.</div>
+      <h1 style="margin-top:12px">Don't pay a contractor until you've checked <span>these things.</span></h1>
+      <p class="lead">A 48-page checklist guide for Philippine homeowners. Verify your land, your contractor, your contract and every payment before you build.</p>
+      <div class="price-row">
+        <div class="price"><span>&#8369;349</span><small>PDF guide. Send me a message to order.</small></div>
+        <a class="btn dm" href="https://m.me/leymhan.lanzuela" target="_blank" rel="noopener">Buy on Messenger</a>
+        <a class="btn alt" href="viber://chat?number=%2B639286167596">Buy on Viber</a>
+      </div>
+    </div>
+    <div class="book" aria-label="Book cover preview">
+      <div class="stamp">DUE DILIGENCE REQUIRED</div>
+      <h2>The Homeowner's Blueprint</h2>
+      <p>What to verify before you sign &amp; pay. A playbook to help protect your home build in the Philippines.</p>
+      <div class="by"><b>Leymhan De Leon Lanzuela</b><br>Construction Project Manager &middot; 20+ years</div>
+    </div>
+  </div>
+</header>
+<div class="tape" aria-hidden="true"></div>
+
+<section>
+  <div class="wrap rv">
+    <div class="eyebrow">The problem</div>
+    <h2 class="title" style="margin-top:8px">Most building disputes begin before the first bag of cement.</h2>
+    <p class="sub">Building a house is probably the biggest spend of your life. Many owners sign and send a down payment before they check three things.</p>
+    <div class="fears">
+      <div class="fear"><b><span class="x">&#10005;</span>Is the license real?</b>Is the contractor's PCAB license current, and does the name match your contract?</div>
+      <div class="fear"><b><span class="x">&#10005;</span>Is the land yours to build on?</b>Tax declaration only? Title in deceased parents' names? Agricultural land?</div>
+      <div class="fear"><b><span class="x">&#10005;</span>Did you pay for real progress?</b>Does each payment match work that was actually inspected?</div>
+    </div>
+  </div>
+</section>
+
+<section id="inside" style="padding-top:0">
+  <div class="wrap rv">
+    <div class="eyebrow">What's inside</div>
+    <h2 class="title" style="margin-top:8px">Checklists you can print, tick and bring to every meeting.</h2>
+    <div class="inside">
+      <div class="item"><i>1</i><div><b>Land readiness</b><span>Proof of ownership, inherited titles, reclassification and DAR conversion, geodetic survey, ECC or CNC.</span></div></div>
+      <div class="item"><i>2</i><div><b>Contractor verification</b><span>PCAB license (Regular vs Pakyaw), registrations, track record and questions for past clients.</span></div></div>
+      <div class="item"><i>3</i><div><b>Fair quote comparison</b><span>A fill-in table so cheap quotes can't hide missing items.</span></div></div>
+      <div class="item"><i>4</i><div><b>What your contract must say</b><span>Scope, price, schedule, change orders, retention, warranty and key Civil Code protections.</span></div></div>
+      <div class="item"><i>5</i><div><b>Who does what</b><span>Plans, permits, utility connections, as-built plans and supervision, with a fill-in Matrix of Responsibility.</span></div></div>
+      <div class="item"><i>6</i><div><b>Safe payment schedule</b><span>Pay in steps tied to inspected work, with 4 inspection hold points.</span></div></div>
+      <div class="item"><i>7</i><div><b>Permit-to-occupancy roadmap</b><span>From land papers to the Certificate of Occupancy, in order.</span></div></div>
+      <div class="item"><i>8</i><div><b>Final 24-point checklist</b><span>Land, contractor, contract, money and site, in one pass before you sign.</span></div></div>
+    </div>
+    <p class="sub">Plus a 10-minute quick start, site protection plan, FAQ and glossary.</p>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap rv">
+    <div class="eyebrow">Sample idea from the guide</div>
+    <h2 class="title" style="margin-top:8px">Money should follow the work, never run ahead of it.</h2>
+    <p class="sub">An example payment staircase showing the total paid against the work done. Each hatched block is paid only after its inspection gate is passed.</p>
+    <div class="chart" role="img" aria-label="Example payment staircase: 10, 25, 45, 65, 75, 90 and 100 percent paid in total across seven inspected milestones">
+      <div class="col"><em>10%<small>paid in total</small></em><div class="stack" style="height:8%"><div class="now" style="flex:10"><b>+10%</b></div></div></div>
+      <div class="col"><em>25%<small>paid in total</small></em><div class="stack" style="height:20%"><div class="now" style="flex:15"><b>+15%</b></div><div class="paid" style="flex:10"></div></div></div>
+      <div class="col"><em>45%<small>paid in total</small></em><div class="stack" style="height:36%"><div class="now" style="flex:20"><b>+20%</b></div><div class="paid" style="flex:25"></div></div></div>
+      <div class="col"><em>65%<small>paid in total</small></em><div class="stack" style="height:52%"><div class="now" style="flex:20"><b>+20%</b></div><div class="paid" style="flex:45"></div></div></div>
+      <div class="col"><em>75%<small>paid in total</small></em><div class="stack" style="height:60%"><div class="now" style="flex:10"><b>+10%</b></div><div class="paid" style="flex:65"></div></div></div>
+      <div class="col"><em>90%<small>paid in total</small></em><div class="stack" style="height:72%"><div class="now" style="flex:15"><b>+15%</b></div><div class="paid" style="flex:75"></div></div></div>
+      <div class="col"><em>100%<small>paid in total</small></em><div class="stack" style="height:80%"><div class="now" style="flex:10"><b>+10%</b></div><div class="paid" style="flex:90"></div></div></div>
+    </div>
+    <div class="nums" aria-hidden="true"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span></div>
+    <div class="legend"><span><i class="sw" style="background:var(--ink)"></i>Already paid</span><span><i class="sw" style="background:repeating-linear-gradient(135deg,var(--accent) 0,var(--accent) 4px,transparent 4px,transparent 8px)"></i>Work done: inspect it, then pay this part</span></div>
+    <div class="eyebrow" style="margin-top:26px">Inspection gates: inspect first, then pay</div>
+    <div class="gates">
+      <div class="gate"><i>1</i><div><b>Down payment</b><span>Contract, license and permits in place</span></div></div>
+      <div class="gate"><i>2</i><div><b>Foundation and footings</b><span>Rebar size and spacing inspected before the pour</span></div></div>
+      <div class="gate"><i>3</i><div><b>Columns, beams and slabs</b><span>Concrete, curing and alignment checked</span></div></div>
+      <div class="gate"><i>4</i><div><b>Walls and roofing</b><span>Roof watertight; walls match specs</span></div></div>
+      <div class="gate"><i>5</i><div><b>Electrical, plumbing, rough-ins</b><span>Pressure and continuity tests done</span></div></div>
+      <div class="gate"><i>6</i><div><b>Finishing</b><span>Walk-through and punch list</span></div></div>
+      <div class="gate"><i>7</i><div><b>Final payment and retention</b><span>Defects fixed, documents handed over</span></div></div>
+    </div>
+    <p class="locked">Example only: a 10% down payment and a 10% final payment with retention. Adjust the percentages with your contractor and engineer, and keep the total at 100%.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap rv">
+    <div class="eyebrow">Free preview</div>
+    <h2 class="title" style="margin-top:8px">3 of the 10 red flags</h2>
+    <div class="flags">
+      <div class="flag"><n>1</n><div><b>Large down payment "for materials"</b><span>Your money may be funding their other projects.</span></div></div>
+      <div class="flag"><n>2</n><div><b>No PCAB license, or won't show it</b><span>No regulator oversight if things go wrong.</span></div></div>
+      <div class="flag"><n>3</n><div><b>Quote far below every other quote</b><span>Missing scope, cheap materials or change orders later.</span></div></div>
+      <div class="flag" style="border-style:dashed"><n>+7</n><div><b>7 more red flags inside</b><span>One flag deserves a second look. Two or more? Find another contractor.</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap two">
+    <div class="rv">
+      <div class="eyebrow">Who it's for</div>
+      <h2 class="title" style="margin-top:8px">Built for people about to build.</h2>
+      <ul class="tick">
+        <li>Homeowners and first-time builders in the Philippines</li>
+        <li>OFWs and families building or renovating from far away</li>
+        <li>Owners with inherited land, a tax declaration only, or agricultural land</li>
+        <li>Anyone comparing contractors before signing</li>
+      </ul>
+    </div>
+    <div class="note rv">
+      <div class="eyebrow">Why I wrote it</div>
+      <p style="margin:10px 0 0">I'm Leymhan De Leon Lanzuela, a construction project manager with 20+ years of experience dealing with government agencies, contractors and owners. I kept seeing the same costly mistakes.</p>
+      <p style="margin:10px 0 0">This is my first e-book. It comes from what I saw on real projects, and your support means a lot.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap rv">
+    <h2 class="title">Questions</h2>
+    <details><summary>How do I buy and pay?</summary><p>Tap "Buy on Messenger" or "Buy on Viber" and send me a message. I will reply with the payment details (for example GCash) and send the PDF once your payment is confirmed.</p></details>
+    <details><summary>Is this legal or engineering advice?</summary><p>No. It is general education and a checklist of questions to ask. I am not a licensed civil engineer, architect or lawyer. Confirm requirements with your LGU and licensed professionals.</p></details>
+    <details><summary>What format is it?</summary><p>A PDF you can read on your phone or print and write on. You get it instantly after purchase.</p></details>
+    <details><summary>Are laws and fees up to date?</summary><p>Rules, fees and requirements differ by city and change over time. Information was last verified November 2026, and buyers get free updates to Edition 1 for 3 months.</p></details>
+    <details><summary>I only have a tax declaration. Is this for me?</summary><p>Yes. The land section explains what a tax declaration does and does not prove, and the steps to take before you build.</p></details>
+    <details><summary>Who do I contact with questions or corrections?</summary><p><a href="mailto:leymhanlanzuela.books@gmail.com">leymhanlanzuela.books@gmail.com</a></p></details>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap rv">
+    <h2>Check first. Sign second. Pay last.</h2>
+    <p>Ten minutes with this guide can help you avoid expensive mistakes.</p>
+    <a class="btn dm" href="https://m.me/leymhan.lanzuela" target="_blank" rel="noopener">Buy on Messenger &middot; &#8369;349</a>
+        <a class="btn alt" href="viber://chat?number=%2B63XXXXXXXXXX">Buy on Viber</a>
+  </div>
+</section>
+
+<div class="wrap fine">
+  <p>Educational guide only. Not engineering, architectural, legal, tax or financial advice. Names of agencies and laws are used for identification only; this guide is not affiliated with or endorsed by any government agency or company. &copy; 2026 Leymhan De Leon Lanzuela. Not for resale or redistribution.</p>
+</div>
+
+<div class="bar">
+  <span style="font-weight:800"><span>&#8369;349</span> &middot; PDF guide</span>
+  <a class="btn dm" href="https://m.me/leymhan.lanzuela" target="_blank" rel="noopener">Buy on Messenger</a>
+        <a class="btn alt" href="viber://chat?number=%2B639286167596">Buy on Viber</a>
+</div>
+
+<script>
+(function(){
+  document.documentElement.className+=' js';
+  var els=document.querySelectorAll('.rv');
+  if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('in')});return;}
+  var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}})},{threshold:.08});
+  els.forEach(function(e){io.observe(e)});
+})();
+</script>
+</body>
+</html>
